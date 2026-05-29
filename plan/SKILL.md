@@ -1,13 +1,13 @@
 ---
-name: plan
+name: blueprint
 description: >
   Plans a new project or major redesign by first gathering all required context from Asher,
   then producing PROJECT.md, KEY.md, and (if applicable) an AUTORESEARCH.md config block.
-  Trigger when Asher types /plan, "new project", "plan this out", "plan a new project",
+  Trigger when Asher types /blueprint, "new project", "plan this out", "plan a new project",
   "start planning", "create a plan", or asks to plan or design a project from scratch.
 ---
 
-# Plan Skill
+# Blueprint Skill
 
 When invoked, work through the phases below in order. Do not skip the intake phase —
 a plan is only as good as the brief it is built from.
@@ -106,7 +106,7 @@ Pass the full intake context inline to each sub-agent — they do not read CLAUD
 After PROJECT.md, KEY.md (and AUTORESEARCH.md if applicable) are written and committed,
 tell Asher:
 
-> Plan complete. Files written to <output location>:
+> Blueprint complete. Files written to <output location>:
 > - PROJECT.md — project overview, features, worktrees, tests
 > - KEY.md — session routing index
 > (If applicable:) AUTORESEARCH.md config block added to PROJECT.md §8
